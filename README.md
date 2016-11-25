@@ -47,7 +47,7 @@ sudo apt-get install python3 python3-requests
 Specification: [receiverlist-schema-0.2.1](receiverlist-schema-0.2.1.json)
 
 Example:
-```
+```json
 { 'receivers':
   [
     {
