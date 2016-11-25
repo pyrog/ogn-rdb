@@ -48,22 +48,22 @@ Specification: [receiverlist-schema-0.2.1](receiverlist-schema-0.2.1.json)
 
 Example:
 ```json
-{ 'receivers':
+{ "receivers":
   [
     {
       "callsign": "N0CALL",
       "description": "An OGN receiver located on planet earth",
       "photos": ["https://example.com/ogn/receiver-photo.jpg"],
       "contact": "John Doe",
-      "email": "ogn@example.com",
+      "email": "john@example.com",
       "country": "None",
       "links": [{"href": "https://example.com/blog/installed-ogn-receiver-on-earth",
                  "rel": "Blog"}]
     },
   ],
   },
-  'timestamp': "2016-02-04T11:11:11",
-  'version': '0.2.1'
+  "timestamp": "2016-02-04T11:11:11",
+  "version": "0.2.1"
 }
 ```
 
