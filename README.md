@@ -52,16 +52,21 @@ Example:
   [
     {
       "callsign": "N0CALL",
-      "description": "An OGN receiver located on planet earth",
-      "photos": ["https://example.com/ogn/receiver-photo.jpg"],
+      "description": "An OGN receiver located on planet earth. Raspberry Pi 3, colinear antenna",
+      "photos": [
+        "https://example.com/img/receiver.jpg",
+        "https://example.com/img/antenna.jpg",
+        "https://example.com/img/runway.jpg",
+      ],
       "contact": "John Doe",
       "email": "john@example.com",
       "country": "None",
-      "links": [{"href": "https://example.com/blog/installed-ogn-receiver-on-earth",
-                 "rel": "Blog"}]
+      "links": [
+        {"href": "https://example.com/blog/installed-ogn-receiver-on-earth", "rel": "Blog"},
+        {"href": "https://example.com/video.jpeg", "rel": "Webcam"}
+      ]
     },
   ],
-  },
   "timestamp": "2016-02-04T11:11:11",
   "version": "0.2.1"
 }
