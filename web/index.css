@@ -12,3 +12,11 @@
     float: right;
     border-radius: 5px;
 }
+
+.thumbnail {
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    display: table-cell;
+    /* TODO: set right space */
+}

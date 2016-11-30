@@ -26,7 +26,7 @@ ognrdbControllers.controller('ReceiverListCtrl', function($scope, $http, $q) {
         });
     };
 
-    receivers_p = $http.get("https://ogn.peanutpod.de/receivers.json")
+    receivers_p = $http.get("../receivers.json") // local path for test only
         .then(function (response) {
             $scope.receiversdb_timestamp = response.data.timestamp;
             angular.forEach(response.data.receivers, function(receiver) {

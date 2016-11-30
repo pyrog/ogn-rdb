@@ -115,8 +115,8 @@
           <div>
               <p>{{receiver.rdb.description}}</p>
               <div class="row">
-                <div class="col-md-4" ng-repeat="photo in receiver.rdb.photos">
-                  <a href="{{photo}}" class="thumbnail"><img ng-src="{{photo}}"style="width:150px;height:150px"/></a>
+                <div class="thumbnail" ng-repeat="photo in receiver.rdb.photos">
+                  <a href="{{photo}}"><img ng-src="{{photo.replace('.jpg', '-100.jpg')}}"/></a>
                 </div>
               </div>
           </div>

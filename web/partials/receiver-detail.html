@@ -32,8 +32,8 @@
   <img src="{{receiver.rdb.photos[0]}}" class="receiver-image"/>
 </div>
 <div class="row">
-  <div class="col-md-4" ng-repeat="photo in receiver.rdb.photos">
-    <a href="{{photo}}" class="thumbnail"><img ng-src="{{photo}}"style="width:150px;height:150px"/></a>
+  <div class="thumbnail" ng-repeat="photo in receiver.rdb.photos">
+    <a href="{{photo}}" ><img ng-src="{{photo.replace('.jpg', '-100.jpg')}}"/></a>
   </div>
 </div>
 <a href="#/receivers">back</a>
